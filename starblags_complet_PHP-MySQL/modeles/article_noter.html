@@ -1,0 +1,57 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">	
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<title>StarBlags - Article</title>
+	<script type="text/javascript">
+		if (window.opener == null) {
+			document.location.replace("index.php");
+		}
+	</script>	
+	<link rel="icon" type="image/gif" href="../images/favicon.gif">
+	<link rel="stylesheet" href="../css/modele_1.css" type="text/css">
+	<script type="text/javascript" src="../js/bibli.js"></script>
+</head>
+<body>
+	<div id="blcPopPage">
+		<div id="blcPopBandeau">
+			<div id="blcPopTitre">Noter un article</div>
+		</div>
+		<h2>Balise, tag, marqueur, élément.</h2>
+		<form method="post" action="article_noter.php?x=HKVSkS6u%2Fg%3D%3D">
+		<table>
+			<tr>
+				<td align="right">Pseudo&nbsp;</td>
+				<td><input name="anNom" size="60" maxlength="60" value="" class="saisie" type="text"></td>
+			</tr>
+			<tr>
+				<td align="right">Note&nbsp;</td>
+				<td><select name="anNote" size="1" class="saisie">
+						<option value="0" selected>0</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+						<option value="7">7</option>
+						<option value="8">8</option>
+						<option value="9">9</option>
+						<option value="10">10</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">&nbsp;</td>
+			</tr>
+			<tr>
+				<td colspan="2" align="right">&nbsp;&nbsp;
+					<input name="btnFermer" value="Fermer" class="bouton" onclick="self.close();opener.focus()" type="button">&nbsp;&nbsp;
+					<input name="btnValider" value="Valider" class="bouton" type="submit">
+				</td>
+			</tr>
+		</table>
+		</form>
+	</div>
+</body>
+</html>

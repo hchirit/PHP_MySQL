@@ -1,0 +1,68 @@
+rss {  
+	width: 600px;
+	margin: 0px auto; 
+	padding: 5px 0px;
+	font: normal 11px Verdana, sans-serif;
+	color: #000;
+	}
+	
+channel > title{
+	color: #B90F0F; 
+	padding: 3px;
+	border: 3px solid #B90F0F;
+	font: bold 20px Verdana, sans-serif;
+	display: block;
+	margin: 15px 0px;
+	}
+	
+channel > link{
+	display: none;
+	}
+
+channel > language{
+	display: none;
+	}
+	
+channel > lastBuildDate{
+	display: none;
+	}
+	
+channel > ttl{
+	display: none;
+	}
+	
+channel > image {
+	display: none;
+	}
+	
+channel > description {
+	color: #B90F0F; 
+	padding: 3px;
+	font: bold 11px Verdana, sans-serif;
+	display: block;
+	margin: 15px 0px;
+	}
+	
+item title {
+	color: #B90F0F; 
+	padding: 3px;
+	border-bottom: 3px solid #B90F0F;
+	font: bold 17px Verdana, sans-serif;
+	display: block;
+	margin-top: 15px;
+	}
+	
+item description {
+	display: block;
+	margin: 10px 0px;
+	}
+	
+item link {
+	display: block;
+	margin: 10px 0px;
+	}
+	
+item pubDate {
+	display: block;
+	margin: 5px 0px;
+	}

@@ -1,0 +1,293 @@
+body {  
+	margin: 0; 
+	padding: 5px 0;
+	background: url(../images/fond.jpg);
+	font: normal 11px Verdana, sans-serif;
+	color: #000;
+	}
+	
+/****************************************
+* BLOCS DES PAGES 
+****************************************/
+#blcBandeau {
+	width: 755px;
+	height: 100px;
+	padding: 4px 5px 0 0;
+	background: url(../images/bandeau.gif) no-repeat;
+	margin: 0 auto; 		
+	}	
+#blcPied {
+	width: 760px;
+	height: 54px;
+	padding-top: 40px;
+	background: url(../images/pied.gif) no-repeat;
+	text-align: center;
+	margin: 0 auto;
+	clear: both; 		
+	}	
+#blcPied, #blcPied a {
+	font: bold 9px Verdana, sans-serif;
+	color: #FC0;
+	}
+#blcContenu {
+	width: 700px;
+	margin: 0 auto;
+	}
+	
+/****************************************
+* BLOCS HIT PARADE 
+****************************************/
+#blcHitParade {
+	width: 100%;
+	margin: 0;
+	}	
+#blcHitParade table {
+	margin: 10px 0;
+	border: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 420px;
+	background-color: #FFF6C9;
+	float: right;
+	}		
+#blcHitParade table td {
+	border: 1px solid #B90F0F;
+	padding: 2px;
+	text-align: center;
+	}	
+#blcTag {
+	width: 250px;
+	border: 1px solid #B90F0F;
+	float: left;
+	margin-top: 10px;
+	text-align: center;
+	padding-bottom: 6px;	
+	}
+	
+/****************************************
+* FORMULAIRE LOGIN
+****************************************/
+#blcBandeau form {
+	width: 110px;
+	float: right;
+	}
+#blcBandeau label {
+	float:left;
+	width: 40px;
+	font: bold 9px Verdana, sans-serif;
+	color: #F5C900;
+	}
+#blcBandeau input[type=text],
+#blcBandeau input[type=password] {
+	font: 9px Verdana, sans-serif; 
+	padding: 1px; 
+	border: 1px solid #FC0;
+	width: 56px;
+	margin-bottom: 2px;	
+	}
+#blcBandeau input[type=submit] {
+	margin-bottom: 15px;
+	}
+	
+/****************************************
+* BLOCS BLOG 
+****************************************/	
+.blcBlog {
+	margin: 15px 0;
+	width: 100%;
+	border: 1px solid #B90F0F;
+	background-color: #FFF6C9;
+	}
+.blcBlog p {
+	padding: 4px;
+	}
+.blogAuteur {
+	float: right;
+	width: auto;
+	white-space: nowrap;
+	font: bold 9px Verdana, sans-serif;	
+	}
+.blogLienArticle {
+	padding: 3px 0 0 18px;
+	height: 13px;
+	}
+.blogLienArticle {
+	background: url(../images/main_droite.gif) no-repeat;
+	}
+.blogLienMail {
+	background: url(../images/mail.gif) no-repeat;
+	}	
+.blogLienFlux {
+	background: url(../images/rss_flux.gif) no-repeat;
+	}	
+.blcBlog ul {
+	list-style-type: none;
+	padding: 4px; 
+	margin: 0;
+	}
+.blcBlog li  {
+	background: url(../images/puce_jaune.gif) no-repeat 0px 6px;	
+	padding: 2px 0 2px 10px;
+	}
+	
+/****************************************
+* BLOCS ARTICLE
+****************************************/
+.blcArticle {
+	margin: 15px 0;
+	width: 100%;
+	border-bottom: 1px solid #B90F0F;
+	background-color: #FFF6C9;
+	clear: both;
+	}
+.blcArticle table {
+	border-collapse: collapse;
+	border: 0;
+	margin :0;
+	border-spacing: 0;
+	width: 100%;
+	clear: both;
+	}
+.blcArticle table td {
+	padding: 2px;
+	}			
+.articleDate {
+	float: right;
+	width: auto;
+	white-space: nowrap;
+	font: bold 11px Verdana, sans-serif;
+	margin-top: 4px;	
+	}
+.articlePhoto {
+	font: 9px Verdana, sans-serif;
+	text-align: center;
+	}
+.articleLienCom {
+	background: url(../images/comment.gif) no-repeat;
+	}
+.articleLienComAjout {
+	background: url(../images/comment_ajout.gif) no-repeat;
+	}
+.articleNote {
+	background: url(../images/etoile_jaune.gif) no-repeat;
+	}				
+.articleLienNoteAjout {
+	background: url(../images/coeur.gif) no-repeat;
+	margin-right: 0 !important;
+	}
+.articlePhotoH {
+	margin: 10px 0;
+	text-align: center;	
+	}
+
+/****************************************
+* PAGINATION
+****************************************/
+#blcPagination {
+	margin: 20px auto;
+	padding: 3px;
+	color: #FC0; 
+	background-color: #B90F0F;
+	font: bold 9px/18px Verdana, sans-serif;
+	}
+#blcPagination a, 
+#pageEnCours {
+	text-decoration: none;
+	border: 1px solid #FC0;
+	color: #FC0; 
+	padding: 2px 4px;
+	margin-right: 2px;
+	}
+#blcPagination a:hover {
+	background-color: #FC0;
+	color: #B90F0F; 
+	}
+#pageEnCours {
+	border: 1px solid #B90F0F;
+	}
+	
+/****************************************
+* TITRES
+****************************************/
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	clear: both;
+	}
+h1, h3 {
+	color: #FC0; 
+	background-color: #B90F0F;
+	padding: 3px;
+	font: bold 20px Verdana, sans-serif;
+	}
+h3 {
+	font: bold 13px Verdana, sans-serif;
+	}
+h2 {
+	color: #B90F0F; 
+	padding: 3px;
+	border-bottom: 3px solid #B90F0F;
+	font: bold 17px Verdana, sans-serif;	
+	}	
+h2 a:link, h2 a:visited {
+	color: #B90F0F; 
+	font: bold 17px Verdana, sans-serif;
+	text-decoration: none;
+	}
+	
+/****************************************
+* DIVERS
+****************************************/
+.blcLiens {
+	clear: both;
+	height: 20px;
+	padding: 4px;
+	margin-top: 10px;
+	}
+.blcLiens a {
+	padding: 3px 0 0 18px;
+	height: 13px;
+	display: block;
+	float: left;
+	width: auto;
+	margin-right: 90px;	
+	}	
+.petit { 
+	font: 9px Verdana, sans-serif;
+	}
+.classement {
+	background: url(../images/etoile_jaune.gif) no-repeat right;
+	padding: 3px 18px 0 0;
+	height: 13px;
+	}	
+.bouton {
+	font: bold 9px Verdana, sans-serif;
+	width: 100px;
+	}
+a:link, 
+a:visited, 
+a:active, 
+a:hover {
+	color: #000;
+	}
+img {
+	border: 0;
+	}
+table {	
+	font-size: inherit;
+	}
+/****************************************
+* HACK POUR MOZILLA
+****************************************/
+div > p {
+	margin-top: 0px; 
+	margin-bottom: 0px;
+	}
+td > p {
+	margin-top: 0px; 
+	margin-bottom: 0px;
+	}
+p + p {
+	margin-top: 1em; 
+	margin-bottom: 0px;
+	}

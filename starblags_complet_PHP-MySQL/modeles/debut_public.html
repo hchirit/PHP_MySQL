@@ -1,0 +1,26 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<title>@_TITLE_@</title>
+	<link rel="icon" type="@_REP_@/image/gif" href="images/favicon.gif">
+	<link rel="stylesheet" href="@_REP_@/css/modele_1.css" type="text/css">
+	@_RSS_@
+	<script type="text/javascript" src="@_REP_@/js/bibli.js"></script>	
+</head>
+<body>
+	<div id="blcBandeau">
+		<form method="post" action="@_REP_@/php/login.php">
+			<label for="txtPseudo">Pseudo</label>
+			<input type="text" name="txtPseudo" id="txtPseudo" value="">
+			<label for="txtPasse">Passe</label>
+			<input type="password" name="txtPasse" id="txtPasse" value="">
+			<input type="submit" name="btnLogin" value="Mon blog" class="bouton">		
+			<input type="submit" name="btnNouveau" value="Créer un blog" class="bouton">
+		</form>
+		<a href="@_REP_@/index.php">
+			<img src="@_REP_@/images/logo.gif" title="Accueil StarBlagS" width="104" height="67">
+		</a>
+	</div> <!-- FIN DU BLOC BANDEAU -->
+
+	<div id="blcContenu">

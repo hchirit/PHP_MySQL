@@ -1,0 +1,188 @@
+body {  
+	margin: 0; 
+	padding: 5px 0;
+	background: url(../images/fond.jpg);
+	font: normal 11px Verdana, sans-serif;
+	color: #000;
+	}
+
+/****************************************
+* BLOCS DES PAGES 
+****************************************/
+#blcBandeau {
+	width: 755px;
+	height: 100px;
+	padding: 4px 5px 0 0;
+	background: url(../images/bandeau.gif) no-repeat;
+	margin: 0 auto; 		
+	}	
+#blcPied {
+	width: 760px;
+	height: 54px;
+	padding-top: 40px;
+	background: url(../images/pied.gif) no-repeat;
+	text-align: center;
+	margin: 0 auto; 		
+	}	
+#blcPied, #blcPied a {
+	font: bold 9px Verdana, sans-serif;
+	color: #FC0;
+	}
+#blcContenu {
+	width: 700px;
+	margin: 0 auto; 
+	}
+	
+/****************************************
+* BLOCS HIT PARADE 
+****************************************/
+#blcHitParade {
+	width: 100%;
+	margin: 0;
+	}	
+#blcHitParade table {
+	margin: 10px 0;
+	border: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 420px;
+	background-color: #FFF6C9;
+	float: right;
+	}		
+#blcHitParade table td {
+	border: 1px solid #B90F0F;
+	padding: 2px;
+	text-align: center;
+	}	
+#blcTag {
+	width: 250px;
+	border: 1px solid #B90F0F;
+	float: left;
+	margin-top: 10px;
+	text-align: center;
+	padding-bottom: 6px;	
+	}
+
+/****************************************
+* FORMULAIRE LOGIN
+****************************************/
+#blcBandeau form {
+	width: 110px;
+	float: right;
+	}
+#blcBandeau label {
+	float:left;
+	width: 40px;
+	font: bold 9px Verdana, sans-serif;
+	color: #F5C900;
+	}
+#blcBandeau input[type=text],
+#blcBandeau input[type=password] {
+	font: 9px Verdana, sans-serif; 
+	padding: 1px; 
+	border: 1px solid #FC0;
+	width: 56px;
+	margin-bottom: 2px;	
+	}
+#blcBandeau input[type=submit] {
+	margin-bottom: 15px;
+	}
+		
+/****************************************
+* BLOCS BLOG 
+****************************************/	
+.blcBlog {
+	margin: 15px 0;
+	width: 100%;
+	border: 1px solid #B90F0F;
+	background-color: #FFF6C9;
+	clear: both;
+	}
+.blcBlog p {
+	padding: 4px;
+	}
+.blogAuteur {
+	float: right;
+	width: auto;
+	white-space: nowrap;
+	font: bold 9px Verdana, sans-serif;	
+	}
+.blogLienArticle {
+	background: url(../images/main_droite.gif) no-repeat;
+	padding: 3px 0 0 18px;
+	height: 13px;
+	}
+		
+/****************************************
+* TITRES
+****************************************/
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	clear: both;
+	}
+h1, h3 {
+	color: #FC0; 
+	background-color: #B90F0F;
+	padding: 3px;
+	font: bold 20px Verdana, sans-serif;
+	}
+h3 {
+	font: bold 13px Verdana, sans-serif;
+	}
+h2 {
+	color: #B90F0F; 
+	padding: 3px;
+	border-bottom: 3px solid #B90F0F;
+	font: bold 17px Verdana, sans-serif;	
+	}	
+h2 a:link, 
+h2 a:visited {
+	color: #B90F0F; 
+	font: bold 17px Verdana, sans-serif;
+	text-decoration: none;
+	}
+	
+/****************************************
+* DIVERS
+****************************************/
+.petit { 
+	font: 9px Verdana, sans-serif;
+	}
+.classement {
+	background: url(../images/etoile_jaune.gif) no-repeat right;
+	padding: 3px 10px 0 0;
+	height: 13px;
+	}	
+.bouton {
+	font: bold 9px Verdana, sans-serif;
+	width: 100px;
+	}
+a:link, 
+a:visited, 
+a:active, 
+a:hover {
+	color: #000;
+	}
+img {
+	border: 0;
+	}
+table {
+	font-size: inherit;
+	}
+		
+/****************************************
+* HACK POUR MOZILLA
+****************************************/
+div > p {
+	margin-top: 0px; 
+	margin-bottom: 0px;
+	}
+td > p {
+	margin-top: 0px; 
+	margin-bottom: 0px;
+	}
+p + p {
+	margin-top: 1em; 
+	margin-bottom: 0px;
+	}

@@ -1,0 +1,71 @@
+		<!-- BLOC HIT PARADE -->
+		<div id="blcHitParade">
+			<div id="blcTag">
+				<h3 onclick="FP.affTags(this)">Tags [+]</h3>
+				<div id="blcTagReduit" style="display: block">
+					@_TAGS_REDUIT_@ 
+				</div>
+				<div id="blcTagComplet" style="display: none">
+					@_TAGS_COMPLET_@ 
+				</div>
+			</div>
+			
+			<table>
+				<tr> 
+					<td style="padding: 0" colspan="2">
+						<h3>Les 3 blogs les plus visités</h3>
+					</td>
+				</tr>
+				<tr> 
+					<td>
+						@_BLOG1_@
+					</td>
+					<td>@_VISITE1_@</td>
+				</tr>
+				<tr> 
+					<td>
+						@_BLOG2_@
+					</td>
+					<td>@_VISITE2_@</td>
+				</tr>
+				<tr> 
+					<td>
+						@_BLOG3_@
+					</td>
+					<td>@_VISITE3_@</td>
+				</tr>
+			</table>
+				    
+		    <table>
+		    	<tr>
+				<td style="padding: 0" colspan="2">
+					<h3>Les 3 articles les mieux notés</h3>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					@_ARTICLE1_@
+				</td>
+				<td>
+					<div class="classement">@_NOTE1_@</div>
+				</td>
+			</tr>
+				<tr>
+					<td>
+						@_ARTICLE2_@
+					</td>
+					<td>
+					<div class="classement">@_NOTE2_@</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						@_ARTICLE3_@
+					</td>
+					<td>
+					<div class="classement">@_NOTE3_@</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<!-- FIN BLOC HIT PARADE -->

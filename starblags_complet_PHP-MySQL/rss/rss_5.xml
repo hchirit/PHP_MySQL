@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="iso-8859-15" ?>
+			<rss version="2.0">
+				<channel>
+					<title>StarBlagS : JaBa Script</title>
+					<link>http://localhost/starblags/php/articles_voir.php?x=HKVSkS6psrY%3D</link>
+					<description>Les derniers articles du blog</description>
+					<language>fr</language>
+					<lastBuildDate>Tue, 13 Jan 2009 09:59:54 +0100</lastBuildDate>
+					<ttl>1500</ttl><item>
+				<title>AJAX : XMLHttpRequest</title>
+				<description>AJAX est basé sur l'objet XMLHttpRequest avec lequel JavaScript va faire une requête à un serve ...</description>
+				<link>http://localhost/starblags/php/articles_voir.php?x=HKVSkS6psrUZ</link>
+				<pubDate>Mon, 20 Oct 2008 09:42:00 +0200</pubDate>
+			</item><item>
+				<title>AJAX : principes</title>
+				<description>AJAX est l'acronyme de Asynchronous JavaScript And XML. Ce n'est pas un langage, mais une techn ...</description>
+				<link>http://localhost/starblags/php/articles_voir.php?x=HKVSkS6psrUY</link>
+				<pubDate>Sat, 18 Oct 2008 09:42:00 +0200</pubDate>
+			</item><item>
+				<title>Montrer ou cacher un bloc</title>
+				<description>L'utilisation des feuilles de styles CSS est intéressante à plus d'un titre. Avec HTML elles pe ...</description>
+				<link>http://localhost/starblags/php/articles_voir.php?x=HKVSkS6psrUd</link>
+				<pubDate>Fri, 17 Oct 2008 18:50:00 +0200</pubDate>
+			</item></channel>
+			</rss>

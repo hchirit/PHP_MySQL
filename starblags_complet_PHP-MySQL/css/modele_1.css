@@ -1,0 +1,469 @@
+body {  
+	margin: 0; 
+	padding: 5px 0;
+	background: url(../images/fond.jpg);
+	font: normal 11px Verdana, sans-serif;
+	color: #000;
+	}
+
+table {	font-size: inherit;}
+	
+/****************************************
+* BLOCS DES PAGES 
+****************************************/
+#blcBandeau {
+	width: 755px;
+	height: 100px;
+	padding: 4px 5px 0 0;
+	background: url(../images/bandeau.gif) no-repeat;
+	margin: 0 auto; 		
+	}	
+#blcPied {
+	width: 760px;
+	height: 54px;
+	padding-top: 40px;
+	background: url(../images/pied.gif) no-repeat;
+	text-align: center;
+	margin: 0 auto;
+	clear: both; 		
+	}	
+#blcPied, #blcPied a {
+	font: bold 9px Verdana, sans-serif;
+	color: #FC0;
+	}
+#blcContenu {
+	width: 700px;
+	margin: 0 auto;
+	clear: both;
+	}
+/****************************************
+* BLOCS HIT PARADE 
+****************************************/
+#blcHitParade {
+	width: 100%;
+	margin: 0;
+	}	
+#blcHitParade table {
+	margin: 10px 0;
+	border: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 420px;
+	background-color: #FFF6C9;
+	float: right;
+	}			
+#blcHitParade table td {
+	border: 1px solid #B90F0F;
+	padding: 2px;
+	text-align: center;
+	}	
+#blcTag {
+	width: 250px;
+	border: 1px solid #B90F0F;
+	float: left;
+	margin: 10px 0 20px 0;
+	text-align: center;
+	padding-bottom: 6px;
+	}
+#blcTag a:link {
+	text-decoration: none;
+	}	
+#blcTag a:visited {
+	text-decoration: none;
+	}	
+#blcTag a:hover {
+	text-decoration: underline;
+	}
+
+/****************************************
+* FORMULAIRE LOGIN
+****************************************/
+#blcBandeau form {
+	width: 110px;
+	float: right;
+	}
+#blcBandeau label {
+	float:left;
+	width: 40px;
+	font: bold 9px Verdana, sans-serif;
+	color: #F5C900;
+	}
+#blcBandeau input[type=text],
+#blcBandeau input[type=password] {
+	font: 9px Verdana, sans-serif; 
+	padding: 1px; 
+	border: 1px solid #FC0;
+	width: 56px;
+	margin-bottom: 2px;	
+	}
+#blcBandeau input[type=submit] {
+	margin-bottom: 15px;
+	}
+/****************************************
+* BLOCS BLOG 
+****************************************/	
+.blcBlog {
+	margin: 15px 0;
+	width: 100%;
+	border: 1px solid #B90F0F;
+	background-color: #FFF6C9;
+	clear: both;	
+	}
+.blcBlog p {
+	padding: 4px;
+	}
+.blogAuteur {
+	float: right;
+	width: auto;
+	white-space: nowrap;
+	font: bold 9px Verdana, sans-serif;	
+	}
+.blogLienArticle,
+.blogLienCalendrier,
+.blogLienListe {
+	padding: 3px 0 0 18px;
+	height: 13px;
+	}
+.blogLienCalendrier {
+	background: url(../images/calendrier.gif) no-repeat;	
+	margin-left: 16px;
+	}
+.blogLienListe {
+	background: url(../images/loupe.gif) no-repeat;	
+	margin-left: 16px;
+	}
+.blogLienArticle {
+	background: url(../images/main_droite.gif) no-repeat;
+	}
+.blogLienMail {
+	background: url(../images/mail.gif) no-repeat;
+	}	
+.blogLienFlux {
+	background: url(../images/rss_flux.gif) no-repeat;
+	}	
+.blcBlog ul {
+	list-style-type: none;
+	padding: 4px; 
+	margin: 0;
+	}
+.blcBlog li  {
+	background: url(../images/puce_jaune.gif) no-repeat 0px 6px;	
+	padding: 2px 0 2px 10px;
+	}
+#blcListeArticles {
+	width: 700px;
+	margin: 5px auto 10px auto;
+	background-color: #FFF6C9;
+	display: none;
+	}
+#blcListeArticles a {
+	width: 694px;
+	padding: 2px 3px;
+	cursor: pointer;
+	text-decoration: none;
+	display: block;
+	}
+#blcListeArticles a:hover {
+	color: #FC0; 
+	background-color: #B90F0F;
+	}
+/****************************************
+* BLOCS ARTICLE
+****************************************/
+.blcArticle {
+	margin: 15px 0;
+	width: 100%;
+	border-bottom: 1px solid #B90F0F;
+	background-color: #FFF6C9;
+	clear: both;
+	}
+.blcArticle table {
+	border-collapse: collapse;
+	border: 0;
+	margin :0;
+	border-spacing: 0;
+	width: 100%;
+	clear: both;	
+	}
+.blcArticle table td {
+	padding: 2px;
+	}		
+.articleDate {
+	float: right;
+	width: auto;
+	white-space: nowrap;
+	font: bold 11px Verdana, sans-serif;
+	margin-top: 4px;	
+	}
+.articlePhoto {
+	font: 9px Verdana, sans-serif;
+	text-align: center;
+	}
+.articleLienCom {
+	background: url(../images/comment.gif) no-repeat;
+	}
+.articleLienComAjout {
+	background: url(../images/comment_ajout.gif) no-repeat;
+	}
+.articleNote {
+	background: url(../images/etoile_jaune.gif) no-repeat;
+	}				
+.articleLienNoteAjout {
+	background: url(../images/coeur.gif) no-repeat;
+	margin-right: 0 !important;
+	}
+.articlePhotoH {
+	margin: 10px 0;
+	text-align: center;	
+	}
+.blcLienAuteur {
+	background-color: #B90F0F;
+	text-align: center;
+	width: 140px;
+	padding: 4px;
+	margin: -15px auto 15px auto;
+	}
+.blcLienAuteur a {
+	color: #FC0 !important;
+	}		
+/****************************************
+* PAGINATION
+****************************************/
+#blcPagination {
+	margin: 20px auto;
+	padding: 3px;
+	color: #FC0; 
+	background-color: #B90F0F;
+	font: bold 9px/18px Verdana, sans-serif;
+	}
+#blcPagination a, 
+#pageEnCours {
+	text-decoration: none;
+	border: 1px solid #FC0;
+	color: #FC0; 
+	padding: 2px 4px;
+	margin-right: 2px;
+	}
+#blcPagination a:hover {
+	background-color: #FC0;
+	color: #B90F0F; 
+	}
+#pageEnCours {
+	border: 1px solid #B90F0F;
+	}
+/****************************************
+* TITRES
+****************************************/
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	clear: both;
+	}
+h1, h3 {
+	color: #FC0; 
+	background-color: #B90F0F;
+	padding: 3px;
+	font: bold 20px Verdana, sans-serif;
+	}
+h3 {
+	font: bold 13px Verdana, sans-serif;
+	}
+h2 {
+	color: #B90F0F; 
+	padding: 3px;
+	border-bottom: 3px solid #B90F0F;
+	font: bold 17px Verdana, sans-serif;	
+	}	
+h2 a:link, 
+h2 a:visited {
+	color: #B90F0F; 
+	font: bold 17px Verdana, sans-serif;
+	text-decoration: none;
+	}
+	
+h4 {
+	font: bold 11px Verdana, sans-serif; 
+	color: #B90F0F;
+	padding: 2px;
+	margin-top: 20px;
+	background-color: #FFF6C9;
+	}
+	
+/****************************************
+* BLOCS DES PAGES EN POPUP
+****************************************/
+#blcPopPage {
+	margin: 0px 50px;
+	}
+#blcPopBandeau {
+	height: 44px;
+	background: url(../images/bandeau_pop.gif) no-repeat;
+	}
+#blcPopTitre {
+	border-bottom: 3px solid #FC0;
+	padding: 1px 0px 0px 120px;
+	font: bold 20px Verdana, sans-serif;
+	color: #B90F0F;
+	text-align: right;
+	}
+#blcPopPage table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin: 20px auto;
+	width: 450px;
+	border: 0;
+	background-color: #FFF6C9;
+	}	
+#blcPopPage table td {
+	padding: 2px;
+	}
+/****************************************
+* PAGES DE MISE A JOUR 
+****************************************/
+#blcMajLiens {
+	width: 100px;
+	float: right;
+	margin: 35px 8px 0px 0px;
+	}
+#blcMajLiens a {
+	font: bold 9px/14px Verdana, sans-serif;
+	color: #FC0;
+	background: url(../images/fleche.gif) no-repeat;
+	padding-left: 15px;
+	}
+#blcMajTitre {
+	font: bold 20px Verdana, sans-serif; 
+	color: #B90F0F; 
+	padding: 3px;
+	text-align: center;
+	}
+.majTable {
+	margin: 15px auto 40px auto;
+	border: 0px;
+	background-color: #FFF6C9;
+	}
+#blcErreurs {
+	margin: 10px 0px;
+	border: 1px solid #B90F0F;
+	padding: 2px;
+	background-color: #FFF6C9;
+	}
+.erreurTexte {
+	background: url(../images/exclamation.gif) no-repeat;
+	padding: 4px 0px 2px 20px;
+	margin: 0;
+	}
+.liste_titre {
+	background-color: #B90F0F;
+	color: #FC0;
+	font-weight: bold;
+	}
+.liste_ligne {
+	background-color: #FFF6C9;
+	color: #000;
+	cursor: default;
+	}
+.liste_ligne_over, 
+.liste_ligne_over td {
+	background-color: #B90F0F;
+	color: #FC0;
+	cursor: pointer;
+	}
+.saisie, 
+.saisie_non {
+	background-color: #FFFFFF;
+	border: 1px #FC0 solid;
+	font: 11px Verdana, sans-serif;
+	}
+.saisie_non {
+	background-color: #EEEEEE;
+	}		
+/****************************************
+* DIVERS
+****************************************/
+.blcLiens {
+	clear: both;
+	height: 20px;
+	padding: 4px;
+	margin-top: 10px;	
+	}
+.blcLiens a {
+	padding: 3px 0 0 18px;
+	height: 13px;
+	display: block;
+	float: left;
+	width: auto;
+	margin-right: 90px;	
+	}	
+.petit { 
+	font: 9px Verdana, sans-serif;
+	}
+.classement {
+	background: url(../images/etoile_jaune.gif) no-repeat right;
+	padding: 3px 18px 0 0;
+	height: 13px;
+	}	
+.bouton {
+	font: bold 9px Verdana, sans-serif;
+	width: 100px;
+	}
+a:link, 
+a:visited, 
+a:active, a:hover {
+	color: #000;
+	}
+img {
+	border: 0;
+	}
+.commentTexte {
+	padding: 5px 0px 0px 30px;
+	background-color: #FFF6C9;
+	}
+	
+/****************************************
+* CALENDRIER
+****************************************/
+.calendrier {
+	display: none;
+	width: 200px;
+	margin: 0px auto 10px auto;
+	}
+.calendrier table {
+	border-collapse: collapse;
+	border: 1px solid #B90F0F;
+	}
+.calendrier td {
+	text-align: center;
+	border:1px solid #B90F0F;
+	padding: 2px;
+	}
+.calendrierTete {
+	font-weight: bold;
+	color: #FC0;
+	background-color: #B90F0F;
+	}
+.calendrier a:link, 
+.calendrier a:visited, 
+.calendrier a:hover {
+	text-decoration: none;
+	font-weight: bold;
+	color: #FC0;
+	background-color: #B90F0F;
+	display: block;
+	}
+	
+/****************************************
+* HACK POUR MOZILLA
+****************************************/
+div > p {
+	margin-top: 0px; 
+	margin-bottom: 0px;
+	}
+td > p {
+	margin-top: 0px; 
+	margin-bottom: 0px;
+	}
+p + p {
+	margin-top: 1em; 
+	margin-bottom: 0px;
+	}

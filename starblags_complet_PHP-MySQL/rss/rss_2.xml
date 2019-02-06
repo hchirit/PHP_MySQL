@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="iso-8859-15" ?>
+			<rss version="2.0">
+				<channel>
+					<title>StarBlagS : PHP : Piat Hyper Programmation</title>
+					<link>http://www.francois-piat.info/starblags/php_fp/articles_voir.php?x=HKVSkS6usrY%3D</link>
+					<description>Les derniers articles du blog</description>
+					<language>fr</language>
+					<lastBuildDate>Sat, 08 Jan 2011 15:20:51 +0100</lastBuildDate>
+					<ttl>1500</ttl><item>
+				<title>Test du jeudi</title>
+				<description>ffff ...</description>
+				<link>http://www.francois-piat.info/starblags/php_fp/articles_voir.php?x=HKVSkS6usrMc</link>
+				<pubDate>Sat, 08 Jan 2011 15:20:00 +0100</pubDate>
+			</item><item>
+				L'adresse IP d'un visiteur
+				 
+Pour obtenir l'adresse IP du demandeur d'une page il faut utiliser le tableau super global $ ...
+				http://localhost/starblags/php/articles_voir.php?x=HKVSkS6usrQV
+				Wed, 15 Oct 2008 13:05:00 +0200
+			</item><item>
+				Les bonnes pratiques - 4
+				"We don't get fooled again" - The Who
+Commentaires PHPDoc
+
+PHPDoc est à PHP ce que JavaDoc e ...
+				http://localhost/starblags/php/articles_voir.php?x=HKVSkS6usrQa
+				Sat, 04 Oct 2008 15:14:00 +0200
+			</item><item>
+				Les bonnes pratiques - 3
+				"I shot the sheriff, but I didn't shot no deputy!" - Bob Marley
+ Instructions de contrôle
+
+  ...
+				http://localhost/starblags/php/articles_voir.php?x=HKVSkS6usrQZ
+				Fri, 03 Oct 2008 15:09:00 +0200
+			</item><item>
+				Les bonnes pratiques - 2
+				"I might look like Robert Ford but I feel just like Jess James" - Bob Dylan 
+ Code
+
+    Util ...
+				http://localhost/starblags/php/articles_voir.php?x=HKVSkS6usrQY
+				Thu, 02 Oct 2008 15:06:00 +0200
+			</item></channel>
+			</rss>

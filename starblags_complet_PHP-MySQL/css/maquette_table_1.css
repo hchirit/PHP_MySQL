@@ -1,0 +1,93 @@
+body {  
+	margin: 0; 
+	padding: 5px 0;
+	font: normal 11px Verdana, sans-serif;
+	color: #000;
+	}
+
+table {
+	font-size: inherit;
+	}
+
+/****************************************
+* TITRES
+****************************************/
+.titre_1, .titre_2, .titre_3 {
+	color: #FC0; 
+	background-color: #B90F0F;
+	padding: 3px;
+	}
+	
+.titre_1 { 
+	font: bold 20px Verdana, sans-serif;
+	}
+	
+.titre_2 { 
+	font: bold 13px Verdana, sans-serif;
+	}
+	
+.titre_3 {
+	font: bold 9px Verdana, sans-serif; 	
+	}
+	
+.titre_4, .titre_5 {
+	color: #B90F0F; 
+	padding: 3px;
+	border-bottom: 3px solid #B90F0F;
+	}
+	
+.titre_4 {
+	font: bold 17px Verdana, sans-serif;
+	}
+	
+.titre_5 {
+	font: bold 11px Verdana, sans-serif; 
+	}
+	
+.titre_4 a:link, .titre_4 a:visited {
+	color: #B90F0F; 
+	font: bold 17px Verdana, sans-serif;
+	text-decoration: none;
+	}
+/****************************************
+* DIVERS
+****************************************/
+.petit { 
+	font: 9px Verdana, sans-serif;
+	}
+
+.login_texte { 
+	font: bold 9px Verdana, sans-serif;
+	color: #F5C900;
+	}
+	
+.login_saisie { 
+	font: 9px Verdana, sans-serif; 
+	padding: 1px; 
+	border: 1px solid #FC0;
+	}
+	
+.bouton {
+	font: bold 9px Verdana, sans-serif;
+	width: 100px;
+	}
+	
+a:link, a:visited, a:active, a:hover {
+	color: #000;
+	}
+	
+/****************************************
+* HACK POUR MOZILLA
+****************************************/
+div > p {
+		margin-top: 0px; 
+		margin-bottom: 0px;
+		}
+td > p {
+		margin-top: 0px; 
+		margin-bottom: 0px;
+		}
+p + p {
+		margin-top: 1em; 
+		margin-bottom: 0px;
+		}

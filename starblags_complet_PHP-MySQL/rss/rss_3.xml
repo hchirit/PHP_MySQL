@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="iso-8859-15" ?>
+			<rss version="2.0">
+				<channel>
+					<title>StarBlagS : Le H L M avec du T</title>
+					<link>http://localhost/starblags/php/articles_voir.php?x=HKVSkS6vsrY%3D</link>
+					<description>Les derniers articles du blog</description>
+					<language>fr</language>
+					<lastBuildDate>Tue, 13 Jan 2009 09:59:54 +0100</lastBuildDate>
+					<ttl>1500</ttl><item>
+				<title>Des tables avec des bords</title>
+				<description>Il existe plusieurs façons pour mettre des bordures autour des cellules d'une table. 
+On peut  ...</description>
+				<link>http://localhost/starblags/php/articles_voir.php?x=HKVSkS6vsrUc</link>
+				<pubDate>Fri, 17 Oct 2008 17:40:00 +0200</pubDate>
+			</item><item>
+				<title>Centrer un bloc avec une règle de style</title>
+				<description>Pour centrer un bloc (table, div, etc.) avec une règle de style il faut définir les marges gauc ...</description>
+				<link>http://localhost/starblags/php/articles_voir.php?x=HKVSkS6vsrQb</link>
+				<pubDate>Thu, 09 Oct 2008 20:02:00 +0200</pubDate>
+			</item><item>
+				<title>CLASS ou ID ?</title>
+				<description> Une classe est un groupe de régles de styles (ou une seule régle) auquel on a donné un nom :
+ ...</description>
+				<link>http://localhost/starblags/php/articles_voir.php?x=HKVSkS6vsrQe</link>
+				<pubDate>Mon, 22 Sep 2008 22:00:00 +0200</pubDate>
+			</item><item>
+				<title>Blocs et </title>
+				<description>Les diverses balises HTML peuvent être classées en 3 types : les balises de meta-data, les bali ...</description>
+				<link>http://localhost/starblags/php/articles_voir.php?x=HKVSkS6vsrQd</link>
+				<pubDate>Sun, 21 Sep 2008 10:30:00 +0200</pubDate>
+			</item><item>
+				<title>Balise, tag, marqueur, élément.</title>
+				<description>"Une balise c'est comme qu'un tag qu'est pareil qu'un marqueur, mais tout ça c'est pô pareil qu ...</description>
+				<link>http://localhost/starblags/php/articles_voir.php?x=HKVSkS6vsrQc</link>
+				<pubDate>Sat, 20 Sep 2008 17:31:00 +0200</pubDate>
+			</item><item>
+				<title>Maquette HTML</title>
+				<description>La première étape du développement d'un site consiste à réaliser des maquettes des différents m ...</description>
+				<link>http://localhost/starblags/php/articles_voir.php?x=HKVSkS6vsrA%3D</link>
+				<pubDate>Sat, 06 Sep 2008 09:49:00 +0200</pubDate>
+			</item></channel>
+			</rss>

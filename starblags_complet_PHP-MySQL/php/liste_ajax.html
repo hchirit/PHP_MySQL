@@ -1,0 +1,59 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<title>Exemple Ajax</title>
+	<script type="text/javascript">
+	var Ajax = newAjax();
+	Ajax.EnCours = false;
+	
+	function newAjax() {
+	    // Navigateurs avec l'objet XMLHttpRequest
+	    if (window.XMLHttpRequest) return new XMLHttpRequest();
+	       
+	    // Internet Explorer
+	    try {
+	        return new ActiveXObject('Msxml2.XMLHTTP');
+	    } catch (e) {
+	        try {
+	            return new ActiveXObject('Microsoft.XMLHTTP');
+	        } catch (e) {
+	            return null;
+	        }
+	    }
+	}
+	
+	function getAjax(Url, Fonction) {
+		if (Ajax.EnCours) return;
+
+		Ajax.EnCours = true;
+		Ajax.onreadystatechange = Fonction;
+		Ajax.open('GET', Url, true);
+		Ajax.send(null);
+	}
+		
+	function motAjax(objText) {
+		var Url = 'mot_ajax.php?a=' + objText.value;
+		getAjax(Url, traiteMot);		
+	}
+	
+	function traiteMot() {
+		if (Ajax.readyState != 4) return;
+		if (Ajax.status != 200) {
+			alert("Erreur\n" + Ajax.statusText);
+			return;
+		}
+		
+		document.getElementById('blcMot').innerHTML = Ajax.responseText;
+		
+		Ajax.EnCours = false;
+	}
+	
+	</script>
+</head>
+<body>
+	Mot : <input type="text" name="motcle" size="20" onkeyup="motAjax(this)"></p>
+	<div id="blcMot">
+	</div>
+</body>
+</html>

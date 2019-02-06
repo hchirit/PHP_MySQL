@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="iso-8859-15" ?>
+			<rss version="2.0">
+				<channel>
+					<title>StarBlagS</title>
+					<link>http://www.francois-piat.info/starblags/php_fp/index.php</link>
+					<description>Les derniers articles de StarBlags</description>
+					<language>fr</language>
+					<lastBuildDate>Fri, 20 Oct 2006 10:53:28 +0200</lastBuildDate>
+					<ttl>2</ttl>
+					<image>
+						<url>http://www.francois-piat.info/starblags/images/logo_rss.gif</url>
+						<title>StarBlagS</title>
+						<link>http://www.francois-piat.info/starblags/php_fp/index.php</link>
+						<width>16</width>
+						<height>15</height>
+					</image>
+<item>
+				<title>CLASS ou ID ?</title>
+				<description> Une classe est un groupe de régles de styles (ou une seule régle) auquel on a donné un nom :
+ ...</description>
+				<link>http://www.francois-piat.info/starblags/php_fp/articles_voir.php?idBlog=3&#38;idArticle=22</link>
+				<pubDate>Fri, 13 Oct 2006 22:00:00 +0200</pubDate>
+			</item>
+<item>
+				<title>Fonctionnalités à ajouter à StarBlagS</title>
+				<description> Faire un moteur de recherche sur le titre et le résumé des blogs, et sur le titre et le conten ...</description>
+				<link>http://www.francois-piat.info/starblags/php_fp/articles_voir.php?idBlog=1&#38;idArticle=4</link>
+				<pubDate>Tue, 12 Sep 2006 20:01:00 +0200</pubDate>
+			</item>
+<item>
+				<title>Des tables avec des bords</title>
+				<description>Il existe plusieurs façons pour mettre des bordures autour des cellules d'une table. 
+On peut  ...</description>
+				<link>http://www.francois-piat.info/starblags/php_fp/articles_voir.php?idBlog=3&#38;idArticle=2</link>
+				<pubDate>Mon,  4 Sep 2006 17:40:00 +0200</pubDate>
+			</item>
+<item>
+				<title>Centrer un bloc avec une règle de style</title>
+				<description>Pour centrer un bloc (table, div, etc.) avec une règle de style il faut définir les marges gauc ...</description>
+				<link>http://www.francois-piat.info/starblags/php_fp/articles_voir.php?idBlog=3&#38;idArticle=5</link>
+				<pubDate>Sun,  3 Sep 2006 20:02:00 +0200</pubDate>
+			</item>
+<item>
+				<title>Blocs et </title>
+				<description>Les diverses balises HTML peuvent être classées en 3 types : les balises de meta-data, les bali ...</description>
+				<link>http://www.francois-piat.info/starblags/php_fp/articles_voir.php?idBlog=3&#38;idArticle=21</link>
+				<pubDate>Sat,  2 Sep 2006 10:30:00 +0200</pubDate>
+			</item>
+<item>
+				<title>Maquette HTML</title>
+				<description>La première étape du développement d'un site consiste à réaliser des maquettes des différents m ...</description>
+				<link>http://www.francois-piat.info/starblags/php_fp/articles_voir.php?idBlog=3&#38;idArticle=6</link>
+				<pubDate>Sat,  2 Sep 2006 09:49:00 +0200</pubDate>
+			</item>
+<item>
+				<title>Balise, tag, marqueur, élément.</title>
+				<description>"Une balise c'est comme qu'un tag qu'est pareil qu'un marqueur, mais tout ça c'est pô pareil qu ...</description>
+				<link>http://www.francois-piat.info/starblags/php_fp/articles_voir.php?idBlog=3&#38;idArticle=20</link>
+				<pubDate>Fri,  1 Sep 2006 17:31:00 +0200</pubDate>
+			</item>
+<item>
+				<title>Le troisième jour ...</title>
+				<description>Après deux années pendant lesquelles j'ai assuré des heures de vacation à la faculté des Scienc ...</description>
+				<link>http://www.francois-piat.info/starblags/php_fp/articles_voir.php?idBlog=1&#38;idArticle=18</link>
+				<pubDate>Sun, 20 Aug 2006 13:25:00 +0200</pubDate>
+			</item>
+<item>
+				<title>L'adresse IP d'un visiteur</title>
+				<description>Pour obtenir l'adresse IP du demandeur d'une page il faut utiliser le tableau super global $_SE ...</description>
+				<link>http://www.francois-piat.info/starblags/php_fp/articles_voir.php?idBlog=2&#38;idArticle=12</link>
+				<pubDate>Mon, 14 Aug 2006 13:05:00 +0200</pubDate>
+			</item>
+<item>
+				<title>Jointure incompléte</title>
+				<description>Il arrive que l'on doive faire une jointure sur deux tables, mais que les rangées de la premièr ...</description>
+				<link>http://www.francois-piat.info/starblags/php_fp/articles_voir.php?idBlog=4&#38;idArticle=11</link>
+				<pubDate>Mon, 14 Aug 2006 12:08:00 +0200</pubDate>
+			</item>
+<item>
+				<title>La fonction sum(colonne)</title>
+				<description>Cette fonction, implémentée dans toutes les versions de SQL, permet de calculer la somme des va ...</description>
+				<link>http://www.francois-piat.info/starblags/php_fp/articles_voir.php?idBlog=4&#38;idArticle=9</link>
+				<pubDate>Fri, 11 Aug 2006 17:20:00 +0200</pubDate>
+			</item>
+<item>
+				<title>La clause LIMIT</title>
+				<description>la clause LIMIT est spécifique à MySQL. Elle permet de définir un nombre maximum de rangées à r ...</description>
+				<link>http://www.francois-piat.info/starblags/php_fp/articles_voir.php?idBlog=4&#38;idArticle=8</link>
+				<pubDate>Fri, 11 Aug 2006 17:07:00 +0200</pubDate>
+			</item>
+<item>
+				<title>La fonction count(*)</title>
+				<description>Les différentes implémentations du langage SQL offrent toutes des fonctions que l'on peut utili ...</description>
+				<link>http://www.francois-piat.info/starblags/php_fp/articles_voir.php?idBlog=4&#38;idArticle=7</link>
+				<pubDate>Fri, 11 Aug 2006 16:37:00 +0200</pubDate>
+			</item>
+<item>
+				<title>Le deuxième jour ...</title>
+				<description>Début 1994, je m&rsquo;installe comme travailleur indépendant, spécialisé dans le développement ...</description>
+				<link>http://www.francois-piat.info/starblags/php_fp/articles_voir.php?idBlog=1&#38;idArticle=3</link>
+				<pubDate>Tue,  8 Aug 2006 19:57:00 +0200</pubDate>
+			</item>
+<item>
+				<title>Le premier jour</title>
+				<description>Je travaille dans l'informatique depuis 1983. 
+Jusqu'en 1993, j'ai été chef de projets dans un ...</description>
+				<link>http://www.francois-piat.info/starblags/php_fp/articles_voir.php?idBlog=1&#38;idArticle=1</link>
+				<pubDate>Mon,  7 Aug 2006 16:10:00 +0200</pubDate>
+			</item></channel>
+			</rss>
